@@ -6,6 +6,7 @@ public class MultiplicationTable {
     }
 
     public Boolean isValid(int start, int end) {
+
         return null;
     }
 
@@ -16,6 +17,7 @@ public class MultiplicationTable {
 
     public Boolean isStartNotBiggerThanEnd(int start, int end) {
 
+        return start <= end;
     }
 
     public String generateTable(int start, int end) {
